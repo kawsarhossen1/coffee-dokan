@@ -1,7 +1,7 @@
-import Heading from "../../dist/Heading";
 import { useEffect, useState } from "react";
 import { getAllFavorites, removeFavorite } from "../utils";
 import Card from "../components/Card";
+import Heading from "../components/Heading";
 
 const Dashboard = () => {
   const [coffees, setCoffees] = useState([]);

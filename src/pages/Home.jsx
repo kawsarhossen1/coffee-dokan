@@ -1,11 +1,12 @@
 import { Outlet, useLoaderData } from "react-router-dom";
-import Heading from "../../dist/Heading";
+
 import Banner from "../components/Banner";
-import Categories from "../components/Categories"
+import Categories from "../components/Categories";
+import Heading from "../components/Heading";
 
 const Home = () => {
   const categories = useLoaderData();
-  
+
   return (
     <div>
       {/* Banner */}
